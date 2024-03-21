@@ -1,3 +1,6 @@
 numbers = [111, 26, 37, 48]
 result = list(filter(lambda x: x % 2 == 0, numbers))  # 필터 함수를 사용하여 짝수만 필터링
 print("짝수인 숫자:", result)
+
+x = lambda a : a * a
+print(x(10))
